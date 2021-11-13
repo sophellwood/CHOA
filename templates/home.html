@@ -1,0 +1,17 @@
+{%extends "base.html" %}
+{%block content%}
+<h1>
+    Choose<br>Your<br>Own<br>Adventure
+</h1>
+<div class = "start_button">
+    <p class = "outline">
+        <a href="{{url_for('chose_start')}}">START</a>  
+    </p>
+
+</div>
+
+<img id = "blobs" src="{{url_for('static', filename='Group 3.png')}}" align="middle" />
+
+
+  
+{% endblock %}

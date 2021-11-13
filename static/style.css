@@ -1,0 +1,254 @@
+body{
+    position: absolute;
+    
+    background: #F8FBFF;
+    opacity: 0.8;
+    margin:0;
+
+}
+
+h1{
+    left: 200px;
+    top: 200px;
+    position: absolute;
+    width: 428px;
+    height: 286px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 70px;
+
+    color: #000000;
+
+  
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+    
+a:hover {
+    text-decoration: underline;
+}
+
+#blobs{
+    margin-top:30px;
+    margin-left: 900px;
+}
+
+.banner{
+    position: absolute;
+    width: 1707px;
+    height: 51px;
+    padding: 0;
+    margin-top:0;    
+    background: #b3b2b25e;  
+    position: relative;  
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner img{
+    position: absolute;
+    top:18px;
+    left: 60px;
+}
+
+.banner p{
+    position: relative;
+    font-family: Helvetica;
+    padding: 0;
+    margin:0;
+    top: 18px;
+    left: 1200px;
+    width: 450px;  
+}
+
+
+
+.start_button{
+    position: absolute;
+    width: 402px;
+    height: 48px;
+    top:600px;
+    left: 200px;
+    background: #EC5863;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.start_button .outline{
+    position: absolute;
+    top: -24px;
+    left: 150px; /*relative to position of button*/
+    /*background-color: black;*/
+
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 43px;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.central{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 1300px;
+    height: 350px;
+
+    background: rgba(187, 192, 194, 0.13);
+    border-radius: 20px;
+}
+.central p{ 
+    position:absolute;
+    margin: 0;
+    text-align: center;
+    top: 50%;
+    left: 27%;
+    transform: translate(-20%, -50%);
+
+    font-size: 25px;
+    font-family: Helvetica;
+}
+
+#b1{
+    position:absolute;
+    top: 550px;
+    left: 637.5px;
+
+    background-color: #ec586280;
+    width: 450px;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+#b1:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor:pointer;
+   }
+
+#b2a{
+    position:absolute;
+    top: 550px;
+    left: 325px;
+
+    background-color: #ec586280;
+    width: 450px;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+}
+#b2a:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #777;
+   }
+
+#b2b{
+    position:absolute;
+    top: 550px;
+    left: 950px;
+
+    background-color: #ec586280;
+    width: 450px;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+}
+#b2b:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #777;
+   }
+
+#b3a{
+    position:absolute;
+    top: 550px;
+    left: 200px;
+
+    background-color: #ec586280;
+    width: 325px;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+}
+#b3a:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #777;
+   }
+
+#b3b{
+    position:absolute;
+    top: 550px;
+    left: 687.5px;
+
+    background-color: #ec586280;
+    width: 325px;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+}
+#b3b:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #777;
+   }
+
+#b3c{
+    position:absolute;
+    top: 550px;
+    left: 1175px;
+
+    background-color: #ec586280;
+    width: 325px;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+}
+#b3c:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #777;
+   }

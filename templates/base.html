@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/style.css' />
+
+</head>
+<body>
+    <div class = "banner">
+        <a href="{{url_for('home')}}">
+            <img src="{{url_for('static', filename='home-1.png')}}" align="middle" />
+        </a>
+        <p>
+            Azeem Khan &emsp; &emsp; &emsp; Maya Ruby &emsp; &emsp; &emsp; Sophie Ellwood
+        </p>
+    </div> 
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
