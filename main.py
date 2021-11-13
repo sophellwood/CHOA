@@ -14,6 +14,13 @@ def home():
 def chose_start():
     return render_template('chose_start.html')  
 
+@app1.route('/R1/')
+def R1():
+    return render_template('R1.html') 
+
+@app1.route('/L1/')
+def L1():
+    return render_template('L1.html') 
 
 
   

@@ -1,0 +1,23 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        BOOM. You remember the world
+    ending. Something terrible
+    happened, but you can't
+    remember what. By choosing to
+    not step in front of the white light,
+    you choose the path of autonomy.<br><br>
+    <b>What do you do now?</b>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('home')}}">
+            <br> <button id = "b2a">Explore your house</button> 
+        </a>
+        <a href="{{url_for('home')}}">
+            <br> <button id = "b2b">Go outside</button> 
+        </a>
+        
+</div>
+{% endblock %}
