@@ -1,0 +1,27 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You show the alien to your parents,
+        pointing out the severe injury.
+        However, you didn't expect such
+        an angry and scared reaction from
+        them. They kick the alien out,
+        whacking it with a broom on the
+        way out the door, and then turn on
+        you, screaming.
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R2L2')}}">
+            <br> <button id = "b2a">Run to your room, crying.</button> 
+        </a>
+        <a href="{{url_for('L1R2L1R1')}}">
+            <br> <button id = "b2b">Run away with the alien, leaving
+                your parents behind.</button> 
+        </a>
+        
+</div>   
+
+{% endblock %}

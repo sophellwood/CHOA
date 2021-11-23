@@ -1,0 +1,46 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You are a talented hacker, skilled in
+        breaking through firewalls of the
+        internet. Nothing can ever be truly
+        deleted, but you never thought to
+        look into the world's history until
+        now. You can't believe what you
+        are seeing. You learn that crime
+        rates were so high that your
+        government took control and used
+        a mind wiping device to wipe their
+        citizen's minds every morning. If
+        the citizens cannot remember their
+        past, they cannot make bad
+        decisions. All they are left with
+        each morning is their purpose on
+        Earth, also known as their job. You
+        recognize the truth in this based on
+        the lack of autonomy you have had
+        thus far over your own life.
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L4')}}">
+            <br> <button id = "b2a">This information is too much to
+                handle. You want everything to go
+                back to normal. Now that you
+                understand the purpose of the
+                white light, you intentionally step
+                in front of it</button> 
+        </a>
+        <a href="{{url_for('L1R1')}}">
+            <br> <button id = "b2b">You need to learn more, but
+                understand that there is nothing
+                left to do inside your house. You
+                go outside</button> 
+        </a>
+        
+        
+</div>   
+
+{% endblock %}

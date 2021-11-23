@@ -1,0 +1,55 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        "So, who are you? What's your
+        name? Where do you come from?"
+        Once the questions start, you cant
+        seem to stop. It's time for answers.
+        Through a translation device, the
+        alien begins to respond. "I have
+        come on my ship, the Sensor. My
+        people are arriving all over your
+        world currently, preparing to take
+        over. Your government is corrupt
+        and we pride ourselves in fighting
+        injustices for those who cannot
+        fight for themselves. Your people
+        are too weak, so we are here to
+        establish a new order."
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R4L1')}}">
+            <br> <button id = "b3a">You know what the alien is saying is
+                wrong. There's nothing wrong with
+                your world! You need to report
+                this, so you pick up the phone and
+                call the only number you're
+                allowed to call: the government.
+                You tell the telephone
+                representative that you have an
+                alien with you who plans on taking
+                over the world and beg them to do
+                something about it</button> 
+        </a>
+        <a href="{{url_for('L1R4M1')}}">
+            <br> <button id = "b3b">Something is terribly wrong. You
+                lead the alien back to your house,
+                deciding to do something about
+                this yourself. You steal your dad's
+                gun and attempt to shoot the
+                alien.</button> 
+        </a>
+        <a href="{{url_for('L1R4')}}">
+            <br> <button id = "b3c">You need to know more. What are
+                they talking about? You ask more
+                questions.</button> 
+        </a>
+        
+        
+        
+</div>   
+
+{% endblock %}

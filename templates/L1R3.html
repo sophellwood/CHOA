@@ -1,0 +1,28 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You patch the alien up. Luckily, it's
+        just a surface wound so you don't
+        need to worry about alien guts.
+        You stand in your bathroom,
+        washing the blood of your hands,
+        wondering what to do next.
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R3L1')}}">
+            <br> <button id = "b2a">Now that you have helped the
+                alien, your job is done. You say
+                goodbye and go back to your
+                room</button> 
+        </a>
+        <a href="{{url_for('L1R4')}}">
+            <br> <button id = "b2b">You ask the alien questions</button> 
+        </a>
+        
+        
+</div>   
+
+{% endblock %}

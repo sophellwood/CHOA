@@ -1,0 +1,28 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You step into your room, mind
+        whirling. Somehow, the lack of
+        answers is an answer itself.
+        Something is terribly wrong. But
+        you're only a child! What do you
+        do?
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('home')}}">
+            <br> <button id = "b2a">Step in front of the white light as
+                you should have earlier this
+                morning.</button> 
+        </a>
+        <a href="{{url_for('L3R1')}}">
+            <br> <button id = "b2b">Google what is going on and try to
+                find some information about the
+                world ending.</button> 
+        </a>
+        
+</div>   
+
+{% endblock %}

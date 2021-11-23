@@ -1,0 +1,32 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You walk into your yard, looking
+        around at the world, seeing it in a
+        new light. Everything looks a little
+        bit different. Suddenly, you hear a
+        CRASH and right in front of you is
+        a huge, gaping crater. What just
+        happened? You keep watching as a
+        figure begins to crawl out of the
+        still smoking pit. It's hunched over
+        and, green face or not, you
+        recognize that grimace of pain.
+        This new figure is injured!
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R1L1')}}">
+            <br> <button id = "b2a">It's not your problem. This is too
+                much to handle. You go home.</button> 
+        </a>
+        <a href="{{url_for('L1R2')}}">
+            <br> <button id = "b2b">You hate seeing a creature in pain.
+                You approach it to help</button> 
+        </a>
+        
+</div>   
+
+{% endblock %}

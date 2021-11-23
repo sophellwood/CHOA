@@ -1,0 +1,32 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You head back to your room, trying
+        to understand what you just saw.
+        When you open the door, however,
+        the alien is there. You scream in
+        surprise, eyes widening in fear.
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L4')}}">
+            <br> <button id = "b3a">It's too much to handle. You step in
+                front of the white light as you
+                should have earlier this morning,
+                regretting changing your routine</button> 
+        </a>
+        <a href="{{url_for('L1R1L1M1')}}">
+            <br> <button id = "b3b">Bring your parents up and ask
+                them for help.</button> 
+        </a>
+        <a href="{{url_for('home')}}">
+            <br> <button id = "b3c">Ask the alien questions.
+
+            </button> 
+        </a>
+        
+</div>   
+
+{% endblock %}

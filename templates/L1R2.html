@@ -1,0 +1,24 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You know your parents have a first
+        aid kit somewhere at home, you
+        just need to get it, somehow. How
+        will you proceed?
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R2L1')}}">
+            <br> <button id = "b2a">Bring the alien to your parents to
+                help</button> 
+        </a>
+        <a href="{{url_for('L1R3')}}">
+            <br> <button id = "b2b">You know your parents will freak so
+                you sneak the alien in</button> 
+        </a>
+        
+</div>   
+
+{% endblock %}

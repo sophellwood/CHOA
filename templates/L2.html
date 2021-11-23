@@ -1,0 +1,35 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+        You head downstairs and see your
+        parents in the living room. They are
+        eating their meal packets and
+        staring at the brick wall. That never
+        seemed odd before, but now you
+        wonder why they don’t talk as they
+        eat or even look at each other.
+        "Mom, Dad, how did the world
+        end", you ask, hoping your parents
+        have all the answers. "End? Don't
+        be silly. It can't have ended if we
+        are still here!", your dad answers
+        with a laugh. "Are you alright,
+        sweetheart? You aren't making any
+        sense". Your mother stares at you,
+        concerned. They obviously don't
+        have any answers.
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L3')}}">
+            <br> <button id = "b2a">Go back into your room</button> 
+        </a>
+        <a href="{{url_for('L1R1')}}">
+            <br> <button id = "b2b">Go outside</button> 
+        </a>
+        
+</div>   
+
+{% endblock %}
