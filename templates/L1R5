@@ -3,16 +3,16 @@
 <div class = "central">
     <p>
        "I	don’t	understand!",	you	cry	as	you	walk.	What	is	
-        wrong	with	our	government?"	"Years	ago,"	the	alien	
-        begins,	"there	was	an	alarming	uprise	in	crime.	The	
-        only	way	to	fix	everyone,	according	to	your	
-        government,	was	to	revoke	your	people's	autonomy.	
-        They	believe	everyone	is	bad	so	each	morning	they	
-        wipe	your	mind,	removing	any	knowledge	pf	the	past	
-        and	the	war	to	power.	That	war,	which	they	won,	
-        had	terrible	consequences	for	your	people,	planet,	
-        and	wildlife.	That	is	why	I	am	here.	No	government	
-        should	be	allowed	to	get	away	with	such	a	terrible	
+        wrong	with our government?" "Years ago," the	alien	
+        begins,	"there	was	an	alarming uprise	in	crime.	The	
+        only way to	fix	everyone, according	to	your
+        government,	was	to	revoke	your people's autonomy.	
+        They believe everyone is bad so	each morning they	
+        wipe your mind, removing any knowledge pf the past	
+        and	the	war	to	power. That war, which they	won,	
+        had	terrible consequences for your people, planet,	
+        and	wildlife. That is why I am here. No	government	
+        should	be	allowed	to get	away with such a terrible	
         act	on	injustice."
 
     </p>
@@ -42,11 +42,10 @@
         </a>
         <a href="{{url_for('L1R5')}}">
             <br> <button id = "b3c">
-              Finally,	everything	makes	sense.	The	
-              white	light,	the	new	memories,	
-              everything!	You	agree	with	the	alien:	
-              the	government	must	be	stopped.	You	
-              decide	to	join	them	on	their	mission.</button> 
+              Finally, everything makes sense. The	
+              white	light, the new	memories, everything! You agree with the alien:	
+              the	government	must be	stopped. You	
+              decide to	join them on their mission.</button> 
         </a>
         
         
