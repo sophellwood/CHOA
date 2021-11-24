@@ -2,8 +2,8 @@
 {%block content%} 
 <div class = "central">
     <p>
-       "I	don’t	understand!",	you	cry	as	you	walk.	What	is	
-        wrong	with our government?" "Years ago," the	alien	
+       "I don’t	understand!", you cry as you walk. What is	
+        wrong with our government?" "Years ago," the alien	
         begins,	"there	was	an	alarming uprise	in	crime.	The	
         only way to	fix	everyone, according	to	your
         government,	was	to	revoke	your people's autonomy.	
@@ -44,7 +44,7 @@
             <br> <button id = "b3c">
               Finally, everything makes sense. The	
               white	light, the new	memories, everything! You agree with the alien:	
-              the	government	must be	stopped. You	
+              the government must be stopped. You	
               decide to	join them on their mission.</button> 
         </a>
         
