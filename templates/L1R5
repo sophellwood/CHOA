@@ -40,7 +40,7 @@
                 gun and attempt to shoot the
                 alien.</button> 
         </a>
-        <a href="{{url_for('L1R5')}}">
+        <a href="{{url_for('L1R6')}}">
             <br> <button id = "b3c">
               Finally, everything makes sense. The	
               white	light, the new	memories, everything! You agree with the alien:	
