@@ -1,0 +1,36 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+      You enter The Big Room, looking around. 
+      You have never seen so many lights, computers, and people. 
+      You now need to devise a plan
+
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R7L1')}}">
+            <br> <button id = "b3a">You distract the leader in the room so the alien can kill them.
+          This is the best way to take complete control.
+          </button> 
+        </a>
+        <a href="{{url_for('L1R7M1')}}">
+            <br> <button id = "b3b">You kill the leader yourself. 
+            You are angry at the injustice forced upon your people. 
+           How dare your government control you like that! It is now time for payback and you want it to be done by your hand.
+          </button> 
+        </a>
+        <a href="{{url_for('L1R8')}}">
+            <br> <button id = "b3c">
+             You hesitate. You don't know what to do!
+          You are faced with the decision of killing one of your own people because an alien tells you to do so. 
+          Is that the moral course of action?
+          </button> 
+        </a>
+        
+        
+        
+</div>   
+
+{% endblock %}
