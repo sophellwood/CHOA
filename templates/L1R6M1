@@ -1,0 +1,20 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+       The guards take hold of the alien but they also take you, 
+       viewing you as a willing accomplice. When they discover 
+       that you know nothing more than the little the alien has told you, they shoot you. 
+       GAME OVER
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R6M1')}}">
+            <br> <button id = "b1"><b>PRESS ME</b></button> 
+        </a>       
+        
+        
+</div>   
+
+{% endblock %}
