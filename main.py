@@ -106,6 +106,19 @@ def L1R4M1():
 @app1.route('/L1R6/')
 def L1R4M1():
     return render_template('L1R6.html') 
+  
+  
+@app1.route('/L1R6L1/')
+def L1R4M1():
+    return render_template('L1R6L1.html') 
+  
+@app1.route('/L1R6M1/')
+def L1R4M1():
+    return render_template('L1R6M1.html') 
+ 
+@app1.route('/L1R7/')
+def L1R4M1():
+    return render_template('L1R7.html') 
 
   
 # running application
