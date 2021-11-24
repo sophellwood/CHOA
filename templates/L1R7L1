@@ -1,0 +1,26 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+      You begin to make loud noises, shouting and screaming so all heads turn to you.
+      From the corner of your eye, you watch the alien sneak up on the leader from behind.
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R7L2')}}">
+            <br> <button id = "b2a">You change your mind. 
+            You cannot be behind the death of one of your own people. You alert the leader to the alien's presence.
+            </button> 
+        </a>
+        <a href="{{url_for('L1R7L1R1')}}">
+            <br> <button id = "b2b">You keep distracting the room.
+            </button> 
+        </a>
+
+        
+        
+        
+</div>   
+
+{% endblock %}
