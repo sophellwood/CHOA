@@ -136,9 +136,7 @@ def L1R8():
 def L1R7L2():
     return render_template('L1R7L2.html') 
  
-@app1.route('/L1R7L1R1/')
-def L1R7L1R1():
-    return render_template('L1R7L1R1.html') 
+
   
 @app1.route('/L1R8L1/')
 def L1R8L1():
@@ -166,7 +164,29 @@ def L1R8L2():
 
 @app1.route('/L1R8L1R1/')
 def L1R8L1R1():
-    return render_template('L1R9.html')
+    return render_template('L1R8L1R1.html')
+
+@app1.route('/L1R7L1R1/')
+def L1R7L1R1():
+    return render_template('L1R7L1R1.html')
+
+@app1.route('/L1R7L1R1L1/')
+def L1R7L1R1L1():
+    return render_template('L1R7L1R1L1.html')
+
+@app1.route('/L1R7L1R1M1/')
+def L1R7L1R1M1():
+    return render_template('L1R7L1R1M1.html')
+
+@app1.route('/L1R7L1R2/')
+def L1R7L1R2():
+    return render_template('L1R7L1R2.html')
+    
+
+
+@app1.route('/GameOver/')
+def GameOver():
+    return render_template('GameOver.html')
 
 
   

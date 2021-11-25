@@ -270,6 +270,23 @@ a:hover {
     cursor:pointer;
    }
 
+
+h2{
+
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    left: 375px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 500px;
+
+    color: #570f0f;
+
+}
+
 /*#circle {
     position:absolute;
     width:200px;
