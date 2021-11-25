@@ -1,0 +1,29 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+     Your initiation task is to kill the alien you have bonded with throughout your journey.
+
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R8L2')}}">
+            <br> <button id = "b2a">
+          Kill the alien and live life as an agent, 
+          keeping the world safe. You continue to enforce the mind wipers,
+          finally recognizing, along with the rest of the aliens, that they are necessary.
+          </button> 
+        </a>
+        <a href="{{url_for('L1R8L1R1')}}">
+            <br> <button id = "b2b">
+          Refuse to kill the alien.
+          </button> 
+        </a>
+
+        
+        
+        
+</div>   
+
+{% endblock %}
