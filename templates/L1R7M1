@@ -1,0 +1,31 @@
+{%extends "base.html" %}
+{%block content%} 
+<div class = "central">
+    <p>
+      You succeed! You kill the leader and,
+      with the blood of your dead government on your hands, 
+      you grin at the alien. You wonder what you are supposed to do now.
+
+    </p>
+</div>
+
+<div class = "options">
+        <a href="{{url_for('L1R7M1L1')}}">
+            <br> <button id = "b2a">You live your life as an agent, 
+            keeping the world safe. You continue to enforce the mind wipers, 
+            finally recognizing, along with the rest of the aliens, that they are necessary
+          </button> 
+        </a>
+        <a href="{{url_for('L1R7M1R1')}}">
+            <br> <button id = "b2b">You finally understand that the world is corrupt beyond repair. 
+            You do what the previous government was too weak to do: kill everyone. 
+            You leave Earth with the alien, becoming a social justice warrior with them to save other worlds the way you have saved your own
+          </button> 
+        </a>
+
+        
+        
+        
+</div>   
+
+{% endblock %}
