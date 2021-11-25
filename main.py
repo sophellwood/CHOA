@@ -92,87 +92,80 @@ def L1R4M1():
     return render_template('L1R4M1.html') 
  
 @app1.route('/L1R5/')
-def L1R4M1():
+def L1R5():
     return render_template('L1R5.html') 
    
 @app1.route('/L1R5L1/')
-def L1R4M1():
+def L1R5L1():
     return render_template('L1R5L1.html') 
   
 @app1.route('/L1R5M1/')
-def L1R4M1():
+def L1R5M1():
     return render_template('L1R5M1.html') 
  
 @app1.route('/L1R6/')
-def L1R4M1():
+def L1R6():
     return render_template('L1R6.html') 
   
   
 @app1.route('/L1R6L1/')
-def L1R4M1():
+def L1R6L1():
     return render_template('L1R6L1.html') 
   
 @app1.route('/L1R6M1/')
-def L1R4M1():
+def L1R6M1():
     return render_template('L1R6M1.html') 
  
 @app1.route('/L1R7/')
-def L1R4M1():
+def L1R7():
     return render_template('L1R7.html') 
   
 @app1.route('/L1R7L1/')
-def L1R4M1():
+def L1R7L1():
     return render_template('L1R7L1.html') 
   
 @app1.route('/L1R7M1/')
-def L1R4M1():
+def L1R7M1():
     return render_template('L1R7M1.html') 
  
 @app1.route('/L1R8/')
-def L1R4M1():
+def L1R8():
     return render_template('L1R8.html') 
   
 @app1.route('/L1R7L2/')
-def L1R4M1():
+def L1R7L2():
     return render_template('L1R7L2.html') 
  
 @app1.route('/L1R7L1R1/')
-def L1R4M1():
+def L1R7L1R1():
     return render_template('L1R7L1R1.html') 
   
 @app1.route('/L1R8L1/')
-def L1R4M1():
+def L1R8L1():
     return render_template('L1R8L1.html') 
   
 #Ending Options 
 
 
-@app1.route('/L1R7L1R1/')
-def L1R4M1():
-    return render_template('L1R7L1R1L1.html') 
-@app1.route('/L1R7L1R1/')
-def L1R4M1():
-    return render_template('L1R7L1R1M1.html') 
-@app1.route('/L1R7L1R1/')
-def L1R4M1():
-    return render_template('L1R7L1R2.html') 
   
 @app1.route('/L1R7M1L1/')
-def L1R4M1():
+def L1R7M1L1():
     return render_template('L1R7M1L1.html') 
   
-@app1.route('/L1R7M1/')
-def L1R4M1():
+@app1.route('/L1R7M1R1/')
+def L1R7M1R1():
     return render_template('L1R7M1R1.html') 
+
 @app1.route('/L1R9/')
-def L1R4M1():
+def L1R9():
     return render_template('L1R9.html')
+
 @app1.route('/L1R8L2/')
-def L1R4M1():
+def L1R8L2():
     return render_template('L1R9.html')
 
 @app1.route('/L1R8L1R1/')
-def L1R4M1():
+def L1R8L1R1():
     return render_template('L1R9.html')
 
 
